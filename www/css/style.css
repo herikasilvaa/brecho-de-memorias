@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+body {
+    background: #f8f8ff;
+        min-height: 100vh;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #e3e3fd;
+}
+
+.header img {
+    width: 45%;
+    position: relative;
+    top: 4rem;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80vh;
+    width: 100%;
+    margin-top: 6rem;
+}
+
+.frase {
+    text-align: center;
+    background: #e3e3fd;
+    border: 2px solid #b0c4de;
+    border-radius: 0.4rem;
+    padding: 1.2rem 1rem;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.cartoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cartao {
+    margin: 0.6rem;
+    border: 2px solid #b0c4de;
+    border-radius: 0.4rem;
+    width: 9rem;
+    text-align: center;
+}
+
+.cartao p {
+    padding: 1rem 0.4rem;
+    font-size: 0.8rem;
+    color: #081112;
+}
+
+.cartao img {
+    width: 9rem;
+    border-radius: 0.4rem 0.4rem 0 0;
+}
